@@ -1,116 +1,119 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
-.kesh{
-    width: 230px;
-    height: 40px;
+.kesh {
+  width: 230px;
+  height: 40px;
 }
-.user{
-    width: 64px;
-    height: 64px;
+.user {
+  width: 64px;
+  height: 64px;
 }
-
-body{
-    background-color: rgb(242, 243, 247);
-    height: 100vh;
+body {
+  background-color: rgb(242, 243, 247);
+  height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
 }
-.container{
-    display: flex;
-    justify-content: center;
-    margin-top: 50px;
-
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
 }
-.left{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    background-color: rgb(255, 255, 255);
-    border-radius: 30px;
-    width: 800px;
-    height: 300px;
-    margin-right: 30px;
-    padding: 30px;
-    transition: transform 0.4s, box-shadow 0.4s;
-    
+.left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: rgb(255, 255, 255);
+  border-radius: 30px;
+  width: 800px;
+  height: 300px;
+  margin-right: 30px;
+  padding: 30px;
+  transition: transform 0.4s, box-shadow 0.4s;
 }
 .left:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 20px 50px rgba(67, 63, 124, 0.3);
+  transform: translateY(-10px);
+  box-shadow: 0 20px 50px rgba(67, 63, 124, 0.3);
 }
-.right{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    background-color: rgb(255, 255, 255);
-    border-radius: 30px;
-    width: 400px;
-    height: 300px;
-    padding: 30px;
-    transition: transform 0.4s, box-shadow 0.4s;
+.right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: rgb(255, 255, 255);
+  border-radius: 30px;
+  width: 400px;
+  height: 300px;
+  padding: 30px;
+  transition: transform 0.4s, box-shadow 0.4s;
 }
 .right:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 20px 50px rgba(67, 63, 124, 0.3);
+  transform: translateY(-10px);
+  box-shadow: 0 20px 50px rgba(67, 63, 124, 0.3);
 }
-.enter{
-    background-color: rgb(255, 0, 50);
-    border-radius: 10px;
-    border: none;
-    color: aliceblue;
-    font-weight: bold;
-    width: 350px;
-    height: 50px;
-    font-size: 20px;
-
+.enter {
+  background-color: rgb(255, 0, 50);
+  border-radius: 10px;
+  border: none;
+  color: aliceblue;
+  font-weight: bold;
+  width: 350px;
+  height: 50px;
+  font-size: 20px;
 }
-.enter:hover{
-    background-color: rgb(176, 17, 17);
-    cursor: pointer;
-    transition-duration: 500ms;
+.enter:hover {
+  background-color: rgb(176, 17, 17);
+  cursor: pointer;
+  transition-duration: 500ms;
 }
-.replenishment{
-    background-color: rgb(255, 0, 50);
-    border-radius: 10px;
-    border: none;
-    color: aliceblue;
-    font-weight: bold;
-    width: 350px;
-    height: 50px;
-    font-size: 20px;
+.replenishment {
+  background-color: rgb(255, 0, 50);
+  border-radius: 10px;
+  border: none;
+  color: aliceblue;
+  font-weight: bold;
+  width: 350px;
+  height: 50px;
+  font-size: 20px;
 }
-.replenishment:hover{
-    background-color: rgb(176, 17, 17);
-    cursor: pointer;
-    transition-duration: 500ms;
+.replenishment:hover {
+  background-color: rgb(176, 17, 17);
+  cursor: pointer;
+  transition-duration: 500ms;
 }
-.name{
-    color: rgb(62, 62, 62);
-    font-size: 32px;
+.name {
+  width: 250px;
+  color: rgb(62, 62, 62);
+  font-size: 32px;
+  font-weight: bold;
+  overflow-wrap: break-word;
+  letter-spacing: 2px;
 }
-.top{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-.text{
-    font-size: 20px;
+.text {
+  width: 250px;
+  font-size: 20px;
+  overflow-wrap: break-word;
 }
-.bottom{
-    font-weight: bold;
-    font-size: 20px;
-    display: flex;
+.bottom {
+  font-weight: bold;
+  font-size: 20px;
+  display: flex;
 }
-.number{
-    margin-right: 20px;
+.number {
+  margin-right: 20px;
 }
-.action{
-    display: flex;
-    justify-content: space-around;
+.action {
+  display: flex;
+  justify-content: space-around;
 }
-form input{
-    width: 200px;
-    height: 50px;
-    border-radius: 10px;
-    text-align: center;
+form input {
+  width: 200px;
+  height: 50px;
+  border-radius: 10px;
+  text-align: center;
 }
